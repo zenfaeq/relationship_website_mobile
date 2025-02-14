@@ -58,7 +58,7 @@ function Timer() {
             className="mt-8 sm:mt-12 px-6 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
             onClick={() => navigate(config.recapRedirectPath)}
           >
-            {config.nextPageButtonText} <ArrowRight />
+            {config.nextPageText} <ArrowRight />
           </button>
         </div>
       </div>
