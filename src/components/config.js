@@ -127,7 +127,7 @@ const config = {
   */
 
   // 📌 Paths (Only change if you are a developer or modifying routes)
-  redirectPath: "/passcode", // Path to redirect after passcode entry
+  redirectPath: "/question", // Path to redirect after passcode entry
   timerRedirectPath: "/timer", // Path to redirect to the timer page
   questionRedirectPath: "/question", // Path to redirect to the question page
   recapRedirectPath: "/recap", // Path to redirect to the recap page
