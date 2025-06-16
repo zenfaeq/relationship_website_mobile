@@ -17,16 +17,16 @@ const config = {
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "Hi twin", // Example trending search query
+    "Why is the sky blue", // Another example query
+    `Top 10 sigma images`, // A personalized trending search
   ],
-  proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
+  proTip: 'Pro tip: try searching "How long have we been together?"', // Helpful tip for users
 
   // ⏳ Timer Page
   anniversaryDate: "2024-10-18", // 📅 Set your anniversary date here (used for the timer)
   timerTitle: "We've been together for:", // Title displayed on the timer page
-  timerMessage: "... and still counting <3", // Message shown alongside the timer
+  timerMessage: "... and still counting", // Message shown alongside the timer
   timeUnits: {
     days: "Days", // Label for days in the timer
     hours: "Hours", // Label for hours in the timer
@@ -115,10 +115,10 @@ const config = {
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Hello twin", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Thank you for everything! Wishing us many more wonderful years together.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
