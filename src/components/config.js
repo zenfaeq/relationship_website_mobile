@@ -10,7 +10,7 @@ const config = {
   passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
   successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
+  incorrectPasscodeMessage: "Incorrect passcode, hint: 0000", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
 
   // 🔍 Question Page
