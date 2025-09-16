@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
-import config from "./config"; // Import config file
+import config from "../../config"; // Import config file
 import { fireworks, christmas } from "../assets"; // Direct import of assets
 
 function Closing() {

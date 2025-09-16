@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, ArrowLeft, Message, Image, Music, Heart } from './icons';
 import { useNavigate } from 'react-router-dom';
-import config from './config'; // Import config file
+import config from '../../config'; // Import config file
 import '../index.css';
 
 function Recap() {

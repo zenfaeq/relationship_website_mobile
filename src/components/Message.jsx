@@ -3,7 +3,7 @@ import Carousel from './Carousel';
 import { ImageCard } from './ImageCard';
 import { ArrowLeft } from './icons';
 import { useNavigate } from 'react-router-dom';
-import config from './config'; // Import config file
+import config from '../../config'; // Import config file
 
 // Dynamically import only the required message images
 const imageFiles = import.meta.glob('../assets/MessageImage*.png');

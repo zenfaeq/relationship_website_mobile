@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import config from './config'; // Import config file
+import config from '../../config'; // Import config file
 
 function Passcode() {
     const [passcode, setPasscode] = useState([]);

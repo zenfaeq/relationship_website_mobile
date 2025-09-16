@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap, CSSRulePlugin } from "gsap/all";
 import { ArrowLeft, ArrowRight } from "./icons";
 import { useNavigate } from "react-router-dom";
-import config from "./config"; // Import config file
+import config from "../../config"; // Import config file
 import "../index.css";
 
 gsap.registerPlugin(CSSRulePlugin);

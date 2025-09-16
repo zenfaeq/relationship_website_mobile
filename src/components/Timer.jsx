@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight } from './icons';
-import config from './config'; // Import config file
+import config from '../../config'; // Import config file
 
 function Timer() {
   const START_DATE = new Date(config.anniversaryDate); // Use date from config

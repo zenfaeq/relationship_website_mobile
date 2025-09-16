@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import config from "./config"; // Import config file
+import config from "../../config"; // Import config file
 
 // Dynamically import only the required music images
 const imageFiles = import.meta.glob("../assets/music/*.png");

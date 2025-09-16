@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Search, Mic, Camera, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Google } from './icons';
-import config from './config'; // Import config file
+import config from '../../config'; // Import config file
 
 function Question() {
   const [searchQuery, setSearchQuery] = useState('');
