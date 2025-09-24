@@ -19,7 +19,7 @@ const config = {
   trendingSearches: [
     "Hello", // Example trending search query
     "Why is the sky blue", // Another example query
-    `Top 10 sigma images`, // A personalized trending search
+    `Top 10 images of all time ever`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?"', // Helpful tip for users
 
