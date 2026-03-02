@@ -12,7 +12,7 @@ function Passcode() {
             const newPasscode = [...passcode, number];
             setPasscode(newPasscode);
 
-            if (newPasscode.length === 4) {
+            if (newPasscode.length === 6) {
                 const enteredPasscode = newPasscode.join('');
                 if (enteredPasscode === config.correctPasscode) {
                     setMessage(config.successMessage);
@@ -44,7 +44,7 @@ function Passcode() {
 
                 {/* Passcode Dots */}
                 <div className="flex gap-4 mb-16">
-                    {[...Array(4)].map((_, i) => (
+                    {[...Array(6)].map((_, i) => (
                         <div
                             key={i}
                             className={`w-3.5 h-3.5 rounded-full ${

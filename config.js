@@ -6,7 +6,7 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0303", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "030324", // Change this to any 6-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode here", // Title displayed on the passcode entry page
   successMessage: "You remembered!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
@@ -36,7 +36,7 @@ const config = {
 
   // 📸 Recap Page
   recapTitle: "Let's recap our time together", // Title for the recap page
-  clickMeText: "Click me!", // Text prompting users to interact
+  clickMeText: "Click me!", // Text promptingig users to interact
 
   recapSections: [
     { label: "Moments", path: "/recap/message", icon: "Message" }, // Section for messages
