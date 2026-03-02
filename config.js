@@ -8,7 +8,7 @@ const config = {
   // 🔐 Passcode Page
   correctPasscode: "0303", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode here", // Title displayed on the passcode entry page
-  successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
+  successMessage: "You remembered!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
   incorrectPasscodeMessage: "Incorrect passcode, hint: Our Anniversary", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
@@ -72,14 +72,14 @@ const config = {
       top: "75%",
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Blessed",
+      artist: "Daniel Caesar",
       left: "5%",
       top: "65%",
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "Lucky",
+      artist: "Jason Mraz, Colbie Caillat",
       left: "25%",
       top: "90%",
     },
