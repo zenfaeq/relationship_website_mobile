@@ -5,7 +5,7 @@ import { ArrowRight } from './icons';
 import config from '../../config'; // Import config file
 
 function Timer() {
-  const START_DATE = new Date(config.anniversaryDate); // Use date from config
+  const START_DATE = new Date(config.anniversaryDate + "T00:00:00+08:00");
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
