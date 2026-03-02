@@ -10,14 +10,14 @@ const config = {
   passcodeTitle: "Enter Passcode here", // Title displayed on the passcode entry page
   successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: Anniversary", // Message shown for incorrect passcode
+  incorrectPasscodeMessage: "Incorrect passcode, hint: Our Anniversary", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
 
   // 🔍 Question Page
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is Vero angry at me?", // Example trending search query
+    "Why is Veronica angry at me?", // Example trending search query
     "Why can't girls go to the clinic?", // Another example query
     `How to ragebait girlfriend`, // A personalized trending search
   ],
@@ -39,7 +39,7 @@ const config = {
   clickMeText: "Click me!", // Text prompting users to interact
 
   recapSections: [
-    { label: "Messages", path: "/recap/message", icon: "Message" }, // Section for messages
+    { label: "Moments", path: "/recap/message", icon: "Message" }, // Section for messages
     { label: "Pictures", path: "/recap/pictures", icon: "Image" }, // Section for pictures
     { label: "Music", path: "/recap/music", icon: "Music" }, // Section for music
   ],
@@ -48,20 +48,20 @@ const config = {
   musicTitle: "Songs that remind me of you", // Title for the music page
   musicGallery: [
     {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
+      title: "Love", // Title of the song
+      artist: "wave to earth", // Artist of the song
       left: "5%", // Positioning on the page
       top: "5%", // Positioning on the page
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Paragraphs",
+      artist: "Luke Chiang",
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Ditto",
+      artist: "NewJeans",
       left: "15%",
       top: "40%",
     },
@@ -84,14 +84,14 @@ const config = {
       top: "90%",
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Doughnut",
+      artist: "Twice",
       left: "35%",
       top: "50%",
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Palette",
+      artist: "IU, G-Dragon",
       left: "10%",
       top: "25%",
     },
@@ -100,25 +100,25 @@ const config = {
     // 📝 Message Recap Page
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "March 3, 2024", description: "Minutes before she said YES at w2e concert ❤️" }, // Message entry
+      { title: "March 7, 2024", description: "First date ever after she said YES 🎉" },
+      { title: "July 29, 2024", description: "Gangsta shitz at TCSC Gala" },
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "March 7, 2024", description: "First Photobooth picture at Sunway Pyramid" }, // Picture entry
+      { title: "May 8, 2024", description: "Second Photobooth picture at URMU Date 💕" },
+      { title: "July 29, 2024", description: "Third Photobooth picture at TCSC Gala" },
     ],
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hello twin", // Message displayed on the love letter page
+  loveLetterMessage: "I love you so much Veronica", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything! Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Thank you for everything. I hope Papa and Mama accept us lol.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
