@@ -17,8 +17,8 @@ const config = {
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is Veronica angry at me?", // Example trending search query
-    "Why can't girls go to the clinic?", // Another example query
+    "Why is Veronica angry at me", // Example trending search query
+    "Why can't girls go to the clinic", // Another example query
     `How to ragebait girlfriend`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?"', // Helpful tip for users
